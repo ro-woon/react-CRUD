@@ -1,0 +1,54 @@
+/* ExpenseItem.css */
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .expense-info {
+    flex-grow: 1;
+  }
+  
+  .expense-info span {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .expense-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff4c4c;
+  }
+  
